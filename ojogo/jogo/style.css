@@ -1,0 +1,70 @@
+body {
+    background-image: url('c:/Users/aluno.saolucas/Downloads/eurogamer-e05hlt.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#entrada {
+    text-align: center;
+    background-color: rgba(105, 153, 226, 0.5);
+    padding: 20px;
+    border-radius: 20px;
+    width: 50%;
+    max-width: 600px;
+}
+
+#adivinhar {
+    background-color: rgb(5, 44, 104);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 15px;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#adivinhar:hover {
+    background-color: rgb(9, 19, 107);
+    transform: scale(1.05);
+}
+
+#digitar {
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    width: calc(100% - 70px);
+}
+
+#instrucao {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#saudacao {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #entrada {
+        width: 90%;
+    }
+
+    #saudacao {
+        font-size: 40px;
+    }
+}
