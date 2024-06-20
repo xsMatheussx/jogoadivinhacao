@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background: url('https://img.freepik.com/vetores-gratis/padrao-de-ponto-de-interrogacao-desenhado-a-mao_23-2149416651.jpg?size=338&ext=jpg&ga=GA1.1.2116175301.1718150400&semt=ais_user') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+}
+
+form {
+    background-color: rgba(0, 136, 255, 0.9);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(255, 0, 0);
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 3px solid #ff0000;
+    border-radius: 50px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background-color: #00ff80;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #00a5c3;
+}
