@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da adivinhação</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!-- Link para importar a fonte 'Press Start 2P' -->
+</head>
+<body>
+        
+   <h1 id="saudacao">Olá, <span id="mostrarnome"></span>!</h1>
+    <div id="entrada">
+        <p id="instrucao">Tente acertar o número de 1 a 10!</p>
+        <input type="number" name="number" placeholder="Digite um número:" required minlength="1" maxlength="10" id="digitar">
+        <div id="botao">
+            <button id="adivinhar">Adivinhar!</button>
+        </div>
+        <p id="mensagem"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
